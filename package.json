@@ -1,12 +1,9 @@
 {
-  "name": "serviceaccountgdrive-explorer",
+  "name": "sagd",
   "version": "1.0.0",
-  "description": "Service Account GDrive explorer CLI",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": "./index.js",
+  "description": "Service Account Storage explorer scripts",
+  "type": "module",
+  "main": "index.mjs",
   "author": "saurabhbhagat98die@gmail.com",
   "license": "MIT",
   "devDependencies": {
@@ -19,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/saurabh-prosoft/sagd-explorer/issues"
   },
-  "homepage": "https://github.com/saurabh-prosoft/sagd-explorer/#readme"
+  "homepage": "https://github.com/saurabh-prosoft/sagd-explorer/#readme",
+  "exports": {
+    ".": {
+      "import": "./index.mjs"
+    },
+    "./funcs": {
+      "import": "./funcs/index.mjs"
+    }
+  }
 }
