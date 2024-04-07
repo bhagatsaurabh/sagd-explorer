@@ -9,15 +9,15 @@
   "bin": "./index.js",
   "author": "saurabhbhagat98die@gmail.com",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "googleapis": "^109.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shareef99/task-tracker.git"
+    "url": "git+https://github.com/saurabh-prosoft/sagd-explorer.git"
   },
   "bugs": {
-    "url": "https://github.com/shareef99/task-tracker/issues"
+    "url": "https://github.com/saurabh-prosoft/sagd-explorer/issues"
   },
-  "homepage": "https://github.com/shareef99/task-tracker/#readme"
+  "homepage": "https://github.com/saurabh-prosoft/sagd-explorer/#readme"
 }
