@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabh-prosoft/sagd-explorer.git"
+    "url": "git+https://github.com/bhagatsaurabh/sagd-explorer.git"
   },
   "bugs": {
-    "url": "https://github.com/saurabh-prosoft/sagd-explorer/issues"
+    "url": "https://github.com/bhagatsaurabh/sagd-explorer/issues"
   },
-  "homepage": "https://github.com/saurabh-prosoft/sagd-explorer/#readme",
+  "homepage": "https://github.com/bhagatsaurabh/sagd-explorer/#readme",
   "exports": {
     ".": {
       "import": "./index.mjs"
